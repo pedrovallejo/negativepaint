@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- notas -->
+	  <script language="javascript" type="text/javascript" src="js/p5.js"></script>
+
+  <script language="javascript" type="text/javascript" src="js/dibujo.js"></script>
+
+
+<style>
+	body{
+
+		margin: 0px;
+	}
+	#galeria{
+		margin: 0;
+		height: 100%;
+		background-color: rgb(255,255,255);
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+
+
+
+
+	}
+	.proyecto{
+		width: 100px;
+		height: 300px;
+		background-color: rgb(0,0,0);
+		margin: 0px;
+
+	}
+
+</style>
+
+
+</head>
+<body>
+
+<section id="galeria">
+	
+	<div class="proyecto" id="dibujo1"></div>
+	<div class="proyecto" id="dibujo2"></div>
+	<div class="proyecto" id="dibujo3"></div>
+	<div class="proyecto" id="dibujo4"></div>
+	<div class="proyecto" id="dibujo5"></div>
+	<div class="proyecto" id="dibujo6"></div>
+	<div class="proyecto" id="dibujo7"></div>
+	<div class="proyecto" id="dibujo8"></div>
+	<div class="proyecto" id="dibujo9"></div>
+	<div class="proyecto" id="dibujo10"></div>
+	<div class="proyecto" id="dibujo11"></div>
+	<div class="proyecto" id="dibujo12"></div>
+	<div class="proyecto" id="dibujo13"></div>
+	<div class="proyecto" id="dibujo14"></div>
+	<div class="proyecto" id="dibujo15"></div>
+	<div class="proyecto" id="dibujo16"></div>
+	<div class="proyecto" id="dibujo17"></div>
+	<div class="proyecto" id="dibujo18"></div>
+	<div class="proyecto" id="dibujo19"></div>
+	<div class="proyecto" id="dibujo20"></div>
+	<div class="proyecto" id="dibujo21"></div>
+	<div class="proyecto" id="dibujo22"></div>
+	<div class="proyecto" id="dibujo23"></div>
+	<div class="proyecto" id="dibujo24"></div>
+	<div class="proyecto" id="dibujo25"></div>
+	<div class="proyecto" id="dibujo26"></div>
+	<div class="proyecto" id="dibujo27"></div>
+	<div class="proyecto" id="dibujo28"></div>
+	<div class="proyecto" id="dibujo29"></div>
+	<div class="proyecto" id="dibujo30"></div>
+	<div class="proyecto" id="dibujo31"></div>
+	<div class="proyecto" id="dibujo32"></div>
+	<div class="proyecto" id="dibujo33"></div>
+	<div class="proyecto" id="dibujo34"></div>
+	<div class="proyecto" id="dibujo35"></div>
+	<div class="proyecto" id="dibujo36"></div>
+	<div class="proyecto" id="dibujo37"></div>
+	<div class="proyecto" id="dibujo38"></div>
+	<div class="proyecto" id="dibujo39"></div>
+	<div class="proyecto" id="dibujo40"></div>
+	<div class="proyecto" id="dibujo41"></div>
+	<div class="proyecto" id="dibujo42"></div>
+	<div class="proyecto" id="dibujo43"></div>
+	<div class="proyecto" id="dibujo44"></div>
+	<div class="proyecto" id="dibujo45"></div>
+	<div class="proyecto" id="dibujo46"></div>
+	<div class="proyecto" id="dibujo47"></div>
+	<div class="proyecto" id="dibujo48"></div>
+	<div class="proyecto" id="dibujo49"></div>
+	<div class="proyecto" id="dibujo50"></div>
+	<div class="proyecto" id="dibujo51"></div>
+	<div class="proyecto" id="dibujo52"></div>
+	<div class="proyecto" id="dibujo53"></div>
+	<div class="proyecto" id="dibujo54"></div>
+	<div class="proyecto" id="dibujo55"></div>
+	<div class="proyecto" id="dibujo56"></div>
+	<div class="proyecto" id="dibujo57"></div>
+	<div class="proyecto" id="dibujo58"></div>
+	<div class="proyecto" id="dibujo59"></div>
+	<div class="proyecto" id="dibujo60"></div>
+	<div class="proyecto" id="dibujo61"></div>
+	<div class="proyecto" id="dibujo62"></div>
+	<div class="proyecto" id="dibujo63"></div>
+	<div class="proyecto" id="dibujo64"></div>
+	<div class="proyecto" id="dibujo65"></div>
+	<div class="proyecto" id="dibujo66"></div>
+	<div class="proyecto" id="dibujo67"></div>
+	<div class="proyecto" id="dibujo68"></div>
+	<div class="proyecto" id="dibujo69"></div>
+	<div class="proyecto" id="dibujo70"></div>
+	<div class="proyecto" id="dibujo71"></div>
+	<div class="proyecto" id="dibujo72"></div>
+	<div class="proyecto" id="dibujo73"></div>
+	<div class="proyecto" id="dibujo74"></div>
+	<div class="proyecto" id="dibujo75"></div>
+	<div class="proyecto" id="dibujo76"></div>
+	<div class="proyecto" id="dibujo77"></div>
+	<div class="proyecto" id="dibujo78"></div>
+	<div class="proyecto" id="dibujo79"></div>
+	<div class="proyecto" id="dibujo80"></div>
+	<div class="proyecto" id="dibujo81"></div>
+	<div class="proyecto" id="dibujo82"></div>
+	<div class="proyecto" id="dibujo83"></div>
+	<div class="proyecto" id="dibujo84"></div>
+	<div class="proyecto" id="dibujo85"></div>
+	<div class="proyecto" id="dibujo86"></div>
+	<div class="proyecto" id="dibujo87"></div>
+	<div class="proyecto" id="dibujo88"></div>
+	<div class="proyecto" id="dibujo89"></div>
+	<div class="proyecto" id="dibujo90"></div>
+	<div class="proyecto" id="dibujo91"></div>
+	<div class="proyecto" id="dibujo92"></div>
+	<div class="proyecto" id="dibujo93"></div>
+	<div class="proyecto" id="dibujo94"></div>
+	<div class="proyecto" id="dibujo95"></div>
+	<div class="proyecto" id="dibujo96"></div>
+	<div class="proyecto" id="dibujo97"></div>
+	<div class="proyecto" id="dibujo98"></div>
+
+
+</section>
+
+
+
+</body>
+</html>
+
+
